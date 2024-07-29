@@ -9,8 +9,8 @@ from bs4 import BeautifulSoup
 import datetime
 
 # Always provide your email address and API key to NCBI when using Entrez
-Entrez.email = 'haonanhou8@gmail.com'
-Entrez.api_key = 'ff10a6808d2a435879e45cd022b685e80107'
+Entrez.email = ''
+Entrez.api_key = ''
 
 age_filter_correspondence = {
     'Newborn: birth-1 month': 'newborn[FILT]',
